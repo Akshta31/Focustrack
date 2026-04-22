@@ -277,4 +277,4 @@ REACT_APP_API_URL=https://your-api.railway.app/api npm run build
 
 Screenshot:
 Dashboard And Activity:
-![Dashboard & Activity]()
+![Dashboard & Activity](https://github.com/Akshta31/Focustrack/blob/aa8b1dba32c00d83de6865dea6dd7a8d8e3593d4/images/collage.jpeg)
