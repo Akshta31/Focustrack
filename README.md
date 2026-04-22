@@ -277,6 +277,4 @@ REACT_APP_API_URL=https://your-api.railway.app/api npm run build
 
 ---
 
-## 📄 License
-
-MIT — free to use and modify.
++
