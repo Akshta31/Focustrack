@@ -1,0 +1,36 @@
+.page { padding: 32px 36px; max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+.pageHeader h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.4px; margin-bottom: 4px; }
+.sub { color: var(--text-3); font-size: 13px; }
+.filters { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.searchInput { flex: 1; min-width: 240px; background: var(--bg-1); border: 1px solid var(--border-2); border-radius: var(--radius-sm); color: var(--text); padding: 9px 14px; font-size: 13px; font-family: inherit; outline: none; }
+.searchInput:focus { border-color: var(--accent); }
+.searchInput::placeholder { color: var(--text-3); }
+.filterTabs { display: flex; gap: 4px; background: var(--bg-1); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 3px; }
+.tab { background: none; border: none; color: var(--text-3); padding: 6px 12px; border-radius: 6px; font-size: 12.5px; font-weight: 500; font-family: inherit; cursor: pointer; transition: all 0.15s; }
+.tab:hover { color: var(--text); background: var(--bg-3); }
+.activeTab { background: var(--bg-3) !important; color: var(--text) !important; font-weight: 600; }
+.dateRange { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-3); }
+.dateInput { background: var(--bg-1); border: 1px solid var(--border-2); border-radius: var(--radius-sm); color: var(--text); padding: 8px 10px; font-size: 12.5px; font-family: inherit; outline: none; }
+.dateInput:focus { border-color: var(--accent); }
+
+.dayGroup { display: flex; flex-direction: column; gap: 2px; }
+.dayHeader { display: flex; align-items: center; justify-content: space-between; padding: 10px 0 6px; border-bottom: 1px solid var(--border); }
+.dayLabel { font-size: 13px; font-weight: 700; color: var(--text-2); }
+.dayTotal { font-size: 12px; font-family: 'DM Mono', monospace; color: var(--text-3); }
+.actList { display: flex; flex-direction: column; }
+.actRow { display: grid; grid-template-columns: 22px 1fr 120px 70px 70px; align-items: center; gap: 14px; padding: 10px 12px; border-radius: var(--radius-sm); transition: background 0.15s; }
+.actRow:hover { background: var(--bg-2); }
+.favicon { width: 18px; height: 18px; border-radius: 4px; }
+.actInfo { display: flex; flex-direction: column; min-width: 0; }
+.actDomain { font-size: 13.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.actTitle { font-size: 11.5px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.catChip { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; width: fit-content; white-space: nowrap; }
+.productive { background: rgba(0,212,170,0.12); color: var(--accent); }
+.unproductive { background: rgba(255,82,82,0.12); color: var(--red); }
+.neutral { background: var(--bg-3); color: var(--text-3); }
+.actTime { font-size: 12px; font-family: 'DM Mono', monospace; color: var(--text-3); }
+.actDuration { font-size: 13px; font-family: 'DM Mono', monospace; color: var(--text-2); font-weight: 600; }
+.loadWrap { display: flex; justify-content: center; padding: 64px 0; }
+.spinner { width: 28px; height: 28px; border: 2px solid var(--bg-4); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; }
+.empty { text-align: center; color: var(--text-3); padding: 64px 0; }
+@keyframes spin { to { transform: rotate(360deg); } }
