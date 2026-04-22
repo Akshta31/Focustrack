@@ -275,6 +275,5 @@ REACT_APP_API_URL=https://your-api.railway.app/api npm run build
 - Update `API_BASE` in `extension/background/background.js` and `extension/popup/popup.js` to your production API URL
 - Package as `.zip` for Chrome Web Store submission
 
-Screenshot:
-Dashboard And Activity:
+Dashboard And Weekly Reports:
 ![Dashboard & Activity](https://github.com/Akshta31/Focustrack/blob/aa8b1dba32c00d83de6865dea6dd7a8d8e3593d4/images/collage.jpeg)
