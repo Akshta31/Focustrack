@@ -2,7 +2,7 @@
 
 > A full-stack Chrome Extension that tracks browsing time and delivers beautiful productivity analytics.
 
-![Dashboard Preview](docs/dashboard-preview.png)
+![Dashboard Preview](https://github.com/Akshta31/Focustrack/blob/f56b87bd821f88f0ab7c21f2bfaf59cb99757b5f/images/dashb1.png)
 
 ---
 
