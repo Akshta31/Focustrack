@@ -60,7 +60,7 @@ focustrack/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 
