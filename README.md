@@ -1,4 +1,4 @@
-# FocusTrack 🎯
+# FocusTrack 
 
 > A full-stack Chrome Extension that tracks browsing time and delivers beautiful productivity analytics.
 
